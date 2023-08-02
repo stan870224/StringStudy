@@ -24,10 +24,12 @@ public class StringTest1{
         String okLoginName = "itheima" ;
         String okPassWord = "123456" ;
 
-        if (okLoginName.equals(LoginName) && okPassWord.equals(LoginPassword)){
-            return true;
-        } else{
-            return false;
-        }
+        return okLoginName.equals(LoginName) && okPassWord.equals(LoginPassword);
+
+    //     if (okLoginName.equals(LoginName) && okPassWord.equals(LoginPassword)){
+    //         return true;
+    //     } else{
+    //         return false;
+    //     }
     }
 }
